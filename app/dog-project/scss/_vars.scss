@@ -1,0 +1,54 @@
+$default: #170C04;
+$accent: #E27B3A;
+
+%poppins-700 {
+  font-family: "Poppins-Bold", sans serif;
+  font-weight: 700;
+}
+
+%poppins-500 {
+  font-family: "Poppins-Medium", sans serif;
+  font-weight: 500;
+}
+
+%poppins-400 {
+  font-family: "Poppins-Regular", sans serif;
+  font-weight: 400;
+}
+
+%roboto-500 {
+  font-family: "Roboto-Medium", sans serif;
+  font-weight: 500;
+}
+
+%roboto-400 {
+  font-family: "Roboto-Regular", sans serif;
+  font-weight: 400;
+}
+
+%link {
+  border-radius: 24px;
+  color: #E27B3A;
+  background-color: #fff;
+  padding: 12px 30px;
+  border: 1px solid #E27B3A;
+  transition: all .5s;
+}
+
+%link:hover {
+  border-radius: 24px;
+  color: #fff;
+  background-color: #E27B3A;
+  padding: 12px 30px;
+}
+
+%btn {
+  border-radius: 24px;
+  color: #fff;
+  background-color: #E27B3A;
+  padding: 12px 30px;
+  border: 1px solid #E27B3A;
+  transition: all .5s;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

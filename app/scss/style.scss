@@ -1,0 +1,21 @@
+@import 'vars'; //пишутся переменные для цвета, шрифта и т.д. 
+@import 'fonts'; 
+@import 'reset'; //обнуление стилей
+@import 'global'; //глобальные стили, типо reset.css. Что-то для бади, ссылок
+@import 'media'; // здесь медиа запросы
+
+body {
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  color: #242121;
+  letter-spacing: 0.6px;
+  background-color: #fff;
+  background-color: #68cf7e;
+  padding: 20px;
+  a {
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+  }
+}

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog shop</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__top-box" id="header">
+        <div class="container">
+          <div class="header__top">
+            <a class="logo" href="#">
+              <img class="logo__img" src="images/logo.png" alt="logo">
+              <span>DOG</span>
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#products">Продукты</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#dog-care">Уход за собакой</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#about">О нас</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#popular">Популярное</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="user-nav">
+              <button class="user-nav__item" type="button">
+                <img src="images/icons/search-icon.svg" alt="seaurch">
+              </button>
+              <a class="user-nav__item user-nav__link" href="#">
+                <img src="images/icons/shop-icon.svg" alt="shop">
+              </a>
+              <button class="user-nav__item user-nav__btn" type="button">
+                <img src="images/icons/menu-icon.svg" alt="menu">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__content">
+          <div class="header__content-title">
+            Собака - мой второй пилот
+          </div>
+          <button class="header__content-btn" id="myBtn" type="button">
+            Купить
+          </button>
+          <a class="header__content-link" href="#">
+            Детали
+          </a>
+        </div>
+
+        <div class="modal" id="myModal">
+          <div class="modal__body">
+            <div class="modal__content">
+              <span class="close">&times;</span>
+              <div class="form-popup">
+                <form class="form-popup__container">
+                  <h1 class="form-popup__title">Заполните форму:</h1>
+
+                  <label><b>Имя</b></label>
+                  <input type="text" placeholder="Ваше имя" required>
+
+                  <label><b>Номер</b></label>
+                  <input type="tel" placeholder="Введите номер" required>
+
+                  <label for="email"><b>Почта</b></label>
+                  <input type="text" placeholder="Введите почту" name="email" required>
+
+                  <button class="form-popup__btn" type="submit" class="btn">Отправить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__image">
+          <img class="header__img" src="images/header-img.png" alt="Собакен">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="benefit">
+    <div class="container">
+      <ul class="benefit__list">
+        <li class="benefit__item">
+          <div class="benefit__item-box">
+            <img class="benefit__item-img" src="images/decor/dog-food1.png" alt="собачья еда">
+          </div>
+          <div class="benefit__item-title">
+            Продукты высшего качества Pen Foods
+          </div>
+          <div class="benefit__item-text">
+            Собаки навсегда оставляют отпечатки лап в&nbsp;наших сердцах.
+          </div>
+          <a class="benefit__item-link" href="#">
+            Детали
+          </a>
+        </li>
+        <li class="benefit__item">
+          <div class="benefit__item-box benefit__item-box--blue">
+            <img class="benefit__item-img" src="images/decor/dog-food2.png" alt="собачья еда">
+          </div>
+          <div class="benefit__item-title">
+            Продукты высшего качества Pen Foods
+          </div>
+          <div class="benefit__item-text">
+            Собаки навсегда оставляют отпечатки лап в&nbsp;наших сердцах.
+          </div>
+          <a class="benefit__item-link" href="#">
+            Детали
+          </a>
+        </li>
+        <li class="benefit__item">
+          <div class="benefit__item-box benefit__item-box--pink">
+            <img class="benefit__item-img" src="images/decor/dog-food3.png" alt="собачья еда">
+          </div>
+          <div class="benefit__item-title">
+            Продукты высшего качества Pen Foods
+          </div>
+          <div class="benefit__item-text">
+            Собаки навсегда оставляют отпечатки лап в&nbsp;наших сердцах.
+          </div>
+          <a class="benefit__item-link" href="#">
+            Детали
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <div class="container">
+      <div class="products__inner">
+        <h3 class="products__title title">
+          Популярные продукты
+        </h3>
+        <p class="products__text">
+          Ошейник для собак имеет стильный дизайн, изготовлен из качественного и прочного нейлона.
+          Благодаря закругленным компонентам из пластика плотно прилегает к шее питомца.
+        </p>
+        <div class="products__top">
+          <div class="products__top-item">
+            <a class="products__top-image" href="#">
+              <img class="products__top-img" src="images/product/1.png" alt="Ошейник">
+            </a>
+            <div class="products__top-content">
+              <h4 class="products__top-title">
+                Маурис бландит аликвет
+              </h4>
+              <a class="products__top-link" href="#">
+                Детали
+              </a>
+            </div>
+          </div>
+          <div class="products__top-item">
+            <a class="products__top-image" href="#">
+              <img class="products__top-img" src="images/product/2.png" alt="Ошейник">
+            </a>
+            <div class="products__top-content">
+              <h4 class="products__top-title">
+                Маурис бландит аликвет
+              </h4>
+              <a class="products__top-link" href="#">
+                Детали
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="products__bottom">
+          <div class="products__bottom-item">
+            <a class="products__bottom-image" href="#">
+              <img class="products__bottom-img" src="images/product/3.png" alt="Ошейник">
+            </a>
+            <div class="products__bottom-content">
+              <h4 class="products__bottom-title">
+                Маурис бландит аликвет
+              </h4>
+              <a class="products__bottom-link" href="#">
+                Детали
+              </a>
+            </div>
+          </div>
+          <div class="products__bottom-item">
+            <a class="products__bottom-image" href="#">
+              <img class="products__bottom-img" src="images/product/4.png" alt="Ошейник">
+            </a>
+            <div class="products__bottom-content">
+              <h4 class="products__bottom-title">
+                Маурис бландит аликвет
+              </h4>
+              <a class="products__bottom-link" href="#">
+                Детали
+              </a>
+            </div>
+          </div>
+          <div class="products__bottom-item">
+            <a class="products__bottom-image" href="#">
+              <img class="products__bottom-img" src="images/product/5.png" alt="Ошейник">
+            </a>
+            <div class="products__bottom-content">
+              <h4 class="products__bottom-title">
+                Маурис бландит аликвет
+              </h4>
+              <a class="products__bottom-link" href="#">
+                Детали
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="products__links">
+          <a class="products__link">
+            Все продукты
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dog-care" id="dog-care">
+    <div class="container">
+      <div class="dog-care__inner">
+        <div class="dog-care__image">
+          <img class="dog-care__img" src="images/dog-care.png" alt="уход за собакой">
+        </div>
+        <div class="dog-care__content">
+          <span>
+            Уход за собаками
+          </span>
+          <h4 class="dog-care__title title">
+            Зоотовары для собак и щенков
+          </h4>
+          <p class="dog-care__text">
+            Наш магазин знает не понаслышке и
+            предоставляет максимально разнообразный и широкий выбор товаров для ваших четырехлапых друзей. Здесь собраны
+            актуальные зоотовары для собак от лучших производителей и по оптимальной цене.
+          </p>
+          <div class="dog-care__links">
+            <button class="dog-care__btn" type="button">
+              Назначьте сейчас
+            </button>
+            <a class="dog-care__link" href="#">
+              Детали
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sub" id="about">
+    <div class="container">
+      <div class="sub__inner">
+        <h2 class="sub__title title">
+          Как работает ежемесячная подписка?
+        </h2>
+      </div>
+      <ul class="sub__list">
+        <li class="sub__item">
+          <div class="sub__item-img">
+            <img src="images/decor/dog1.png" alt="собака">
+          </div>
+          <div class="sub__item-content">
+            <h4 class="sub__item-title">
+              Регулярная доставка по расписанию
+            </h4>
+            <div class="sub__item-text">
+              Оформите подписку и больше не тратьте время на ежемесячный заказ корма, лакомства или наполнителя
+            </div>
+            <a class="sub__item-link" href="#">
+              Детали
+            </a>
+          </div>
+        </li>
+        <li class="sub__item">
+          <div class="sub__item-img">
+            <img src="images/decor/dog2.png" alt="собака">
+          </div>
+          <div class="sub__item-content">
+            <h4 class="sub__item-title">
+              Скидка до 15% на весь товар
+            </h4>
+            <div class="sub__item-text">
+              Оформляя любимый корм, лакомство или наполнитель по подписке вы получаете дополнительную скидку до -15%
+            </div>
+            <a class="sub__item-link" href="#">
+              Детали
+            </a>
+          </div>
+        </li>
+        <li class="sub__item">
+          <div class="sub__item-img">
+            <img src="images/decor/dog3.png" alt="собака">
+          </div>
+          <div class="sub__item-content">
+            <h4 class="sub__item-title">
+              Удобная подписка и быстрая связь
+            </h4>
+            <div class="sub__item-text">
+              Изменить или отменить подписку можно в любое время.
+              Оператор позвонит вам заранее и подтвердит заказ
+            </div>
+            <a class="sub__item-link" href="#">
+              Детали
+            </a>
+          </div>
+        </li>
+      </ul>
+      <div class="sub__btn-box">
+        <button class="sub__btn" type="button">
+          Подписаться
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="galery" id="popular">
+    <div class="container">
+      <div class="galery__inner">
+        <div class="galery__left">
+          <h2 class="galery__title title">
+            Галерея Популярных Продуктов
+          </h2>
+          <p class="galery__text">
+            Даже тот, кто содержит дома собаку длительное время и убежден, что всё знает о том, как за ней ухаживать,
+            наверняка найдёт для себя нечто ещё неизведанное, заглянув к нам.
+          </p>
+          <div class="galery__left-box">
+            <div class="galery__left-item">
+              <img class="galery__left-img" src="images/product/6.png" alt="Продукт">
+            </div>
+            <div class="galery__left-item galery__left-item--blue">
+              <img class="galery__left-img" src="images/product/7.png" alt="Продукт">
+            </div>
+            <div class="galery__left-item galery__left-item--purple">
+              <img class="galery__left-img" src="images/product/8.png" alt="Продукт">
+            </div>
+            <div class="galery__left-item galery__left-item--pink">
+              <img class="galery__left-img" src="images/product/9.png" alt="Продукт">
+            </div>
+          </div>
+        </div>
+        <div class="galery__right">
+          <img class="galery__right-img" src="images/product/10.png" alt="Продукт">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <div class="container">
+      <div class="reviews__inner">
+        <div class="reviews__title title">
+          Отзывы о продуктах
+        </div>
+        <div class="reviews__box">
+          <div class="reviews__box-item reviews__box-first"></div>
+          <div class="reviews__box-item reviews__box-second"></div>
+          <div class="reviews__box-item reviews__box-third"></div>
+          <div class="reviews__slider-arrows">
+            <div class="reviews__slider-arrow--top">
+            </div>
+            <div class="reviews__slider-arrow--down">
+            </div>
+          </div>
+          <div class="reviews__slider">
+            <div class="reviews__comment">
+              <div class="reviews__comment-image">
+                <img class="reviews__comment-img" src="images/comments/1.jpg" alt="фото">
+              </div>
+              <p class="reviews__comment-text">
+                Собаке в охоте нужно больше, чем тень. Чем больше людей отпечатки лап навсегда останутся в наших
+                сердцах.
+                Встречаюсь, тем больше мне нравится моя собака. Собаки навсегда оставляют отпечатки лап в наших сердцах.
+              </p>
+              <div class="star"></div>
+              <h4 class="reviews__comment-name">
+                Маргарет Стрит
+              </h4>
+              <span class="reviews__comment-position">
+                Июль 2021
+              </span>
+            </div>
+            <div class="reviews__comment">
+              <div class="reviews__comment-image">
+                <img class="reviews__comment-img" src="images/comments/2.jpg" alt="фото">
+              </div>
+              <p class="reviews__comment-text">
+                Вежливый персонал, хорошая цена на продукцию! Бесплатная доставка по городу:) Очень понравился магазин,
+                буду ещё заказывать!
+              </p>
+              <div class="star"></div>
+              <h4 class="reviews__comment-name">
+                Светлана
+              </h4>
+              <span class="reviews__comment-position">
+                Март 2021
+              </span>
+            </div>
+            <div class="reviews__comment">
+              <div class="reviews__comment-image">
+                <img class="reviews__comment-img" src="images/comments/3.jpg" alt="фото">
+              </div>
+              <p class="reviews__comment-text">
+                Регулярно покупаю тут консервы и косточки для своей собаки. Недавно вот еще пришлось купить новый
+                поводок на замену порванному. Отличная качественная вещь, думаю, будет носиться долго.
+                <div class="star"></div>
+                <h4 class="reviews__comment-name">
+                  Анна
+                </h4>
+                <span class="reviews__comment-position">
+                  Ноябрь 2020
+                </span>
+            </div>
+            <div class="reviews__comment">
+              <div class="reviews__comment-image">
+                <img class="reviews__comment-img" src="images/comments/4.jpg" alt="фото">
+              </div>
+              <p class="reviews__comment-text">
+                Хороший онлайн-магазин з доброзичливим інтерфейсом. Багатий вибір товарів за всіма напрямками за цілком
+                прийнятними цінами. Приваблює також простота оформлення замовлень
+              </p>
+              <div class="star" data-rateyo-rating="3"></div>
+              <h4 class="reviews__comment-name">
+                Виктор Колинз
+              </h4>
+              <span class="reviews__comment-position">
+                Август 2020
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-message">
+    <div class="comtainer">
+      <div class="form-message__inner">
+        <div class="form-message__content">
+          <h3 class="form-message__title title">
+            Собаки оставляют отпечатки лап навсегда.
+          </h3>
+          <p class="form-message__text">
+            Собаке в охоте нужно больше, чем тень. Чем больше людей я встречу, тем больше мне нравится моя собака.
+          </p>
+        </div>
+        <form class="form-message__form">
+          <input class="form-message__input" type="text" placeholder="Введите сообщение">
+          <button class="form-message__btn" type="submit">
+            Отправить
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__list">
+          <div class="footer__list-left">
+            <div class="footer__list-item">
+              <a class="footer__list-link" href="#">
+                Продукт и политика
+              </a>
+            </div>
+            <div class="footer__list-item">
+              <a class="footer__list-link" href="#">
+                Конфиденциальность и информация
+              </a>
+            </div>
+            <div class="footer__list-item">
+              <a class="footer__list-link" href="tel:+380660347857">
+                Контакты: +380660347857
+              </a>
+            </div>
+          </div>
+          <div class="footer__box">
+            <a class="footer__logo logo" href="#">
+              <img class="footer__logo-img logo__img" src="images/logo.png" alt="logo">
+              <span>DOG-PRODUCT</span>
+            </a>
+            <ul class="socials">
+              <li class="socials__item">
+                <a class="socials__link" href="#">
+                  <img class="socials__link-facebook" src="images/socials/facebook.svg" alt="Фейстбук">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" href="#">
+                  <img class="socials__link-social" src="images/socials/social.svg" alt="Соц сеть">
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" href="#">
+                  <img class="socials__link-twitter" src="images/socials/twitter.svg" alt="Твиттер">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__list-right">
+            <div class="footer__list-item">
+              <a class="footer__list-link" href="#dog-care">
+                Уход за собаками
+              </a>
+            </div>
+            <div class="footer__list-item">
+              <a class="footer__list-link" href="#">
+                Политика конфиденциальности
+              </a>
+            </div>
+            <div class="footer__list-item">
+              <a class="footer__list-link" href="#popular">
+                Популярные продукты
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

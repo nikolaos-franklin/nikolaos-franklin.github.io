@@ -1,0 +1,21 @@
+body {
+  @extend %roboto-400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #170C04;
+}
+
+.container {
+  max-width: 1160px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.title {
+  @extend %poppins-500;
+  font-size: 32.25px;
+  line-height: 48px;
+  text-align: center;
+  color: $default;
+}
+
