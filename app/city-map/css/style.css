@@ -533,6 +533,7 @@ body.ie ._ibg img {
 
 .icon-menu {
   display: none;
+  outline: none;
 }
 
 ._no-webp .footer{
