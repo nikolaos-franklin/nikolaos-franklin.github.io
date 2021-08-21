@@ -533,7 +533,6 @@ body.ie ._ibg img {
 
 .icon-menu {
   display: none;
-  outline: none;
 }
 
 ._no-webp .footer{
@@ -848,6 +847,10 @@ body.ie ._ibg img {
   transition: all 0.25s;
 }
 
+.download__btn:focus {
+  outline: 0;
+}
+
 .download__btn::before {
   content: "";
   position: absolute;
@@ -983,6 +986,10 @@ body.ie ._ibg img {
     height: 18px;
     cursor: pointer;
     z-index: 100;
+  }
+
+  .icon-menu:focus {
+    outline: 0;
   }
 
   .icon-menu span {
@@ -1122,6 +1129,10 @@ body.ie ._ibg img {
 
   .header__form-btn {
     margin-right: 5px;
+  }
+
+  .header__form-btn:focus {
+    outline: 0;
   }
 
   .header__content-right {

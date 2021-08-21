@@ -68,30 +68,24 @@ if (location.hash) {
 }
 //=================
 //Menu
-// let iconMenu = document.querySelector(".icon-menu");
-// if (iconMenu != null) {
-// 	let delay = 500;
-// 	let menuBody = document.querySelector(".menu__body");
-// 	iconMenu.addEventListener("click", function (e) {
-// 		if (unlock) {
-// 			body_lock(delay);
-// 			iconMenu.classList.toggle("_active");
-// 			menuBody.classList.toggle("_active");
-// 		}
-// 	});
-// };
- $('.icon-menu').on('click', function(){
-    $('.menu__body').toggleClass('_active');
-  });
-$('.menu__body').on('click', function(){
-    $('.menu__body').removeClass('_active');
-});
-// function menu_close() {
-// 	let iconMenu = document.querySelector(".icon-menu");
-// 	let menuBody = document.querySelector(".menu__body");
-// 	iconMenu.classList.removeClass("_active");
-// 	menuBody.classList.removeClass("_active");
-// }
+let iconMenu = document.querySelector(".icon-menu");
+if (iconMenu != null) {
+	let delay = 500;
+	let menuBody = document.querySelector(".menu__body");
+	iconMenu.addEventListener("click", function (e) {
+		if (unlock) {
+			body_lock(delay);
+			iconMenu.classList.toggle("_active");
+			menuBody.classList.toggle("_active");
+		}
+	});
+};
+function menu_close() {
+	let iconMenu = document.querySelector(".icon-menu");
+	let menuBody = document.querySelector(".menu__body");
+	iconMenu.classList.remove("_active");
+	menuBody.classList.remove("_active");
+}
 //=================
 //BodyLock
 function body_lock(delay) {
